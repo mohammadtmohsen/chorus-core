@@ -3,7 +3,7 @@ import {
   CONFORMANCE_OPTS,
   collectEvents,
   type ConformanceTarget,
-} from '@chorus/agent-protocol'
+} from '@mohammadtmohsen/agent-protocol'
 import { describe, expect, it } from 'vitest'
 import { FakeAdapter, type FakeAgentSession } from './testing/fake-adapter.js'
 

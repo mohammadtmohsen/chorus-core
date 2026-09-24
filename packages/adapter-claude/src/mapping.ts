@@ -9,9 +9,9 @@ import {
   type UsageWindow,
   type UserInputRequest,
   type UserInputResponse,
-} from '@chorus/agent-protocol'
-import { redactText } from '@chorus/shared'
-import type { AgentId, ApprovalId, UserInputId } from '@chorus/shared'
+} from '@mohammadtmohsen/agent-protocol'
+import { redactText } from '@mohammadtmohsen/shared'
+import type { AgentId, ApprovalId, UserInputId } from '@mohammadtmohsen/shared'
 
 /**
  * Claude `SDKMessage` → the normalized `AgentEvent` union.

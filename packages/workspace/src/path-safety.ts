@@ -5,11 +5,11 @@ import {
   isInside as isInsideOn,
   platformForRoot,
   relativeInside as relativeInsideOn,
-} from '@chorus/ide-protocol/paths'
-import { err, ok, type Result } from '@chorus/shared'
+} from '@mohammadtmohsen/ide-protocol/paths'
+import { err, ok, type Result } from '@mohammadtmohsen/shared'
 
 /**
- * Containment is defined once, in `@chorus/ide-protocol`, and re-exported here
+ * Containment is defined once, in `@mohammadtmohsen/ide-protocol`, and re-exported here
  * under the names main has always used.
  *
  * It lived in two places and they had already drifted: this file used

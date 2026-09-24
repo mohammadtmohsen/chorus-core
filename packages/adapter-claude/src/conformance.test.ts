@@ -3,8 +3,8 @@ import {
   CONFORMANCE_OPTS,
   collectEvents,
   type ConformanceTarget,
-} from '@chorus/agent-protocol'
-import { AsyncQueue } from '@chorus/shared'
+} from '@mohammadtmohsen/agent-protocol'
+import { AsyncQueue } from '@mohammadtmohsen/shared'
 import type { Query } from '@anthropic-ai/claude-agent-sdk'
 import { mkdtempSync } from 'node:fs'
 import { tmpdir } from 'node:os'

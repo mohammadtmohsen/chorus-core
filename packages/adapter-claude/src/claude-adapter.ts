@@ -28,7 +28,7 @@ import type {
   HealthStatus,
   SessionOpts,
   UserInputResponse,
-} from '@chorus/agent-protocol'
+} from '@mohammadtmohsen/agent-protocol'
 import {
   AsyncQueue,
   newApprovalId,
@@ -36,7 +36,7 @@ import {
   type AgentId,
   type ApprovalId,
   type UserInputId,
-} from '@chorus/shared'
+} from '@mohammadtmohsen/shared'
 import {
   mapContextUsage,
   mapPlanUsage,

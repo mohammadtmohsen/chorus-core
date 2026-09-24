@@ -1,6 +1,6 @@
 import { execFile } from 'node:child_process'
 import { promisify } from 'node:util'
-import { err, ok, type Result } from '@chorus/shared'
+import { err, ok, type Result } from '@mohammadtmohsen/shared'
 import { parseDiff, type DiffFile } from './diff.js'
 import { EMPTY_STATUS, parseStatus, type WorkspaceStatus } from './status.js'
 

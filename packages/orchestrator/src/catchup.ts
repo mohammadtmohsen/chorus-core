@@ -1,5 +1,5 @@
-import type { StoredEvent } from '@chorus/event-store'
-import type { AgentId } from '@chorus/shared'
+import type { StoredEvent } from '@mohammadtmohsen/event-store'
+import type { AgentId } from '@mohammadtmohsen/shared'
 import { callRule } from './mentions.js'
 
 /**

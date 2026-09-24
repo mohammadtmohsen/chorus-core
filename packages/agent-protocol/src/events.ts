@@ -1,4 +1,4 @@
-import type { AgentId, ApprovalId } from '@chorus/shared'
+import type { AgentId, ApprovalId } from '@mohammadtmohsen/shared'
 import type { ApprovalRequest } from './approval.js'
 import type { UserInputRequest } from './user-input.js'
 

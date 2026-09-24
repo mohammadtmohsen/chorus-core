@@ -10,8 +10,8 @@ import type {
   ModelChoice,
   SessionOpts,
   UserInputResponse,
-} from '@chorus/agent-protocol'
-import type { AgentId, ApprovalId, UserInputId } from '@chorus/shared'
+} from '@mohammadtmohsen/agent-protocol'
+import type { AgentId, ApprovalId, UserInputId } from '@mohammadtmohsen/shared'
 
 /**
  * An in-memory `AgentAdapter` that emits a scripted event sequence.

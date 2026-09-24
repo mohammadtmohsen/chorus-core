@@ -1,5 +1,5 @@
 import { resolve } from 'node:path'
-import type { Brand } from '@chorus/shared'
+import type { Brand } from '@mohammadtmohsen/shared'
 import { hasRoot, isWithin, relativeWithin, safeRealpath } from './path-safety.js'
 
 /**

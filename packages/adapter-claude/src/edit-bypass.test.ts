@@ -1,6 +1,6 @@
 import type { Options, PermissionResult, Query } from '@anthropic-ai/claude-agent-sdk'
-import type { AgentEvent, SessionOpts } from '@chorus/agent-protocol'
-import { AsyncQueue } from '@chorus/shared'
+import type { AgentEvent, SessionOpts } from '@mohammadtmohsen/agent-protocol'
+import { AsyncQueue } from '@mohammadtmohsen/shared'
 import { describe, expect, it } from 'vitest'
 import { ClaudeAdapter } from './claude-adapter.js'
 

@@ -1,5 +1,5 @@
 import { createSdkMcpServer, tool } from '@anthropic-ai/claude-agent-sdk'
-import type { EditorEditCapability, EditorPlace } from '@chorus/agent-protocol'
+import type { EditorEditCapability, EditorPlace } from '@mohammadtmohsen/agent-protocol'
 import { z } from 'zod'
 
 /**

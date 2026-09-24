@@ -1,5 +1,5 @@
 import type { PermissionResult } from '@anthropic-ai/claude-agent-sdk'
-import type { ApprovalId } from '@chorus/shared'
+import type { ApprovalId } from '@mohammadtmohsen/shared'
 import { describe, expect, it } from 'vitest'
 import { mapToolPermission } from './mapping.js'
 

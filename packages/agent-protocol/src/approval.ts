@@ -1,4 +1,4 @@
-import type { AgentId, ApprovalId } from '@chorus/shared'
+import type { AgentId, ApprovalId } from '@mohammadtmohsen/shared'
 
 /**
  * The four things an agent can ask permission for. Both providers' native

@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it } from 'vitest'
-import { redactPayload } from '@chorus/shared'
+import { redactPayload } from '@mohammadtmohsen/shared'
 import { ChorusEventPayload } from './events.js'
 import { currentVersion, MIGRATIONS } from './migrations.js'
 import { openSqlite, type SqliteHandle } from './sqlite.js'

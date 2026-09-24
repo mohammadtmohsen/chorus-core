@@ -13,8 +13,8 @@ import type {
   SandboxPolicy,
   SessionOpts,
   UserInputResponse,
-} from '@chorus/agent-protocol'
-import type { AgentId, ApprovalId, UserInputId } from '@chorus/shared'
+} from '@mohammadtmohsen/agent-protocol'
+import type { AgentId, ApprovalId, UserInputId } from '@mohammadtmohsen/shared'
 import {
   mapApprovalRequest,
   mapNotification,

@@ -1,4 +1,4 @@
-import type { AgentAdapter } from '@chorus/agent-protocol'
+import type { AgentAdapter } from '@mohammadtmohsen/agent-protocol'
 import { describe, expect, it } from 'vitest'
 import { SupervisedSession } from './supervisor.js'
 import { FakeAdapter } from './testing/fake-adapter.js'

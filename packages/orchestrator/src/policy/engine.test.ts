@@ -1,5 +1,5 @@
-import type { ApprovalRequest } from '@chorus/agent-protocol'
-import type { ApprovalId } from '@chorus/shared'
+import type { ApprovalRequest } from '@mohammadtmohsen/agent-protocol'
+import type { ApprovalId } from '@mohammadtmohsen/shared'
 import { describe, expect, it } from 'vitest'
 import { evaluate, grantKey, SessionGrants } from './engine.js'
 import { matches, profileById, PROFILES, UNIVERSAL_ASKS, UNIVERSAL_DENIES } from './rules.js'

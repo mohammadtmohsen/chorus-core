@@ -1,4 +1,4 @@
-import type { AgentEvent } from '@chorus/agent-protocol'
+import type { AgentEvent } from '@mohammadtmohsen/agent-protocol'
 import { describe, expect, it } from 'vitest'
 import type { Scheduler } from './delta-buffer.js'
 import { SupervisedSession, type SupervisorPolicy } from './supervisor.js'

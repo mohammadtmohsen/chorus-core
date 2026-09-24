@@ -1,5 +1,5 @@
 {
-  "name": "@chorus/adapter-claude",
+  "name": "@mohammadtmohsen/adapter-claude",
   "version": "1.0.0",
   "private": false,
   "publishConfig": {
@@ -28,8 +28,8 @@
   },
   "dependencies": {
     "@anthropic-ai/claude-agent-sdk": "0.3.220",
-    "@chorus/agent-protocol": "workspace:*",
-    "@chorus/shared": "workspace:*",
+    "@mohammadtmohsen/agent-protocol": "workspace:*",
+    "@mohammadtmohsen/shared": "workspace:*",
     "zod": "^4.4.3"
   },
   "devDependencies": {

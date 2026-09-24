@@ -1,4 +1,4 @@
-import { ActorSchema, AgentIdSchema } from '@chorus/shared'
+import { ActorSchema, AgentIdSchema } from '@mohammadtmohsen/shared'
 import { z } from 'zod'
 
 /**

@@ -11,9 +11,9 @@
  *
  * So a browser consumer imports the piece it needs, never this file:
  *
- * - `@chorus/ide-protocol/protocol` — the wire shapes and their zod schemas
- * - `@chorus/ide-protocol/paths` — containment, with the platform passed in
- * - `@chorus/ide-protocol/document-identity` — what a `git:` or `gl-review:`
+ * - `@mohammadtmohsen/ide-protocol/protocol` — the wire shapes and their zod schemas
+ * - `@mohammadtmohsen/ide-protocol/paths` — containment, with the platform passed in
+ * - `@mohammadtmohsen/ide-protocol/document-identity` — what a `git:` or `gl-review:`
  *   URI actually names
  *
  * Each of those three is import-free apart from `zod`, and the renderer build

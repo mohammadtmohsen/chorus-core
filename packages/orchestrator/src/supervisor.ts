@@ -12,8 +12,8 @@ import type {
   ForkOpts,
   SessionOpts,
   UserInputResponse,
-} from '@chorus/agent-protocol'
-import { AsyncQueue, type ApprovalId, type UserInputId } from '@chorus/shared'
+} from '@mohammadtmohsen/agent-protocol'
+import { AsyncQueue, type ApprovalId, type UserInputId } from '@mohammadtmohsen/shared'
 import { realScheduler, type Scheduler } from './delta-buffer.js'
 
 /**

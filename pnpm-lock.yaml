@@ -23,10 +23,10 @@ importers:
       '@anthropic-ai/claude-agent-sdk':
         specifier: 0.3.220
         version: 0.3.220(@anthropic-ai/sdk@0.128.0(zod@4.6.5))(@modelcontextprotocol/sdk@1.30.0(zod@4.6.5))(zod@4.6.5)
-      '@chorus/agent-protocol':
+      '@mohammadtmohsen/agent-protocol':
         specifier: workspace:*
         version: link:../agent-protocol
-      '@chorus/shared':
+      '@mohammadtmohsen/shared':
         specifier: workspace:*
         version: link:../shared
       zod:
@@ -39,10 +39,10 @@ importers:
 
   packages/adapter-codex:
     dependencies:
-      '@chorus/agent-protocol':
+      '@mohammadtmohsen/agent-protocol':
         specifier: workspace:*
         version: link:../agent-protocol
-      '@chorus/shared':
+      '@mohammadtmohsen/shared':
         specifier: workspace:*
         version: link:../shared
     devDependencies:
@@ -52,7 +52,7 @@ importers:
 
   packages/agent-protocol:
     dependencies:
-      '@chorus/shared':
+      '@mohammadtmohsen/shared':
         specifier: workspace:*
         version: link:../shared
       zod:
@@ -61,7 +61,7 @@ importers:
 
   packages/event-store:
     dependencies:
-      '@chorus/shared':
+      '@mohammadtmohsen/shared':
         specifier: workspace:*
         version: link:../shared
       better-sqlite3:
@@ -90,13 +90,13 @@ importers:
 
   packages/orchestrator:
     dependencies:
-      '@chorus/agent-protocol':
+      '@mohammadtmohsen/agent-protocol':
         specifier: workspace:*
         version: link:../agent-protocol
-      '@chorus/event-store':
+      '@mohammadtmohsen/event-store':
         specifier: workspace:*
         version: link:../event-store
-      '@chorus/shared':
+      '@mohammadtmohsen/shared':
         specifier: workspace:*
         version: link:../shared
       zod:
@@ -122,10 +122,10 @@ importers:
 
   packages/workspace:
     dependencies:
-      '@chorus/ide-protocol':
+      '@mohammadtmohsen/ide-protocol':
         specifier: workspace:*
         version: link:../ide-protocol
-      '@chorus/shared':
+      '@mohammadtmohsen/shared':
         specifier: workspace:*
         version: link:../shared
     devDependencies:

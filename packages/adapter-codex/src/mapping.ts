@@ -5,8 +5,8 @@ import {
   type UsageWindow,
   type UserInputRequest,
   type UserInputResponse,
-} from '@chorus/agent-protocol'
-import type { AgentId, ApprovalId, UserInputId } from '@chorus/shared'
+} from '@mohammadtmohsen/agent-protocol'
+import type { AgentId, ApprovalId, UserInputId } from '@mohammadtmohsen/shared'
 import type { PatchApplyStatus } from './generated/v2/PatchApplyStatus.js'
 import type { PatchChangeKind } from './generated/v2/PatchChangeKind.js'
 

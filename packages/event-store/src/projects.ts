@@ -1,4 +1,4 @@
-import { newProjectId, type ProjectId } from '@chorus/shared'
+import { newProjectId, type ProjectId } from '@mohammadtmohsen/shared'
 import { z } from 'zod'
 import type { Database } from './port.js'
 
@@ -545,7 +545,7 @@ export class ProjectStore {
    * Records the project's permission profile.
    *
    * **The store does not validate the id.** Which profiles exist is the policy
-   * engine's question and it lives in `@chorus/orchestrator`; a check here would
+   * engine's question and it lives in `@mohammadtmohsen/orchestrator`; a check here would
    * be a second copy of that list, drifting. What it does guarantee is that the
    * project exists — writing a profile for a project nobody adopted is a caller
    * bug, and a silent no-op is how that bug reaches a person as "the setting

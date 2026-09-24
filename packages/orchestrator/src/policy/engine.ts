@@ -1,4 +1,4 @@
-import { requiresExplicitUserDecision, type ApprovalRequest } from '@chorus/agent-protocol'
+import { requiresExplicitUserDecision, type ApprovalRequest } from '@mohammadtmohsen/agent-protocol'
 import { matches, subjectOf, type PermissionProfile, type Rule } from './rules.js'
 
 /**

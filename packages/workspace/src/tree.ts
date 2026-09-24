@@ -1,7 +1,7 @@
 import { execFile } from 'node:child_process'
 import { readdir } from 'node:fs/promises'
 import { promisify } from 'node:util'
-import { err, ok, type Result } from '@chorus/shared'
+import { err, ok, type Result } from '@mohammadtmohsen/shared'
 import { GitError, type GitOptions } from './git.js'
 import { resolveWithinRoot } from './path-safety.js'
 

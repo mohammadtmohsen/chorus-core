@@ -1,5 +1,5 @@
-import { EventStore, openSqlite, type SqliteHandle } from '@chorus/event-store'
-import { newApprovalId } from '@chorus/shared'
+import { EventStore, openSqlite, type SqliteHandle } from '@mohammadtmohsen/event-store'
+import { newApprovalId } from '@mohammadtmohsen/shared'
 import { beforeEach, describe, expect, it } from 'vitest'
 import { ConversationService } from './conversation-service.js'
 import { SessionGrants } from './policy/engine.js'

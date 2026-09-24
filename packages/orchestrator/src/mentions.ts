@@ -1,4 +1,4 @@
-import type { AgentId } from '@chorus/shared'
+import type { AgentId } from '@mohammadtmohsen/shared'
 
 /**
  * Decides which agent a message is addressed to.

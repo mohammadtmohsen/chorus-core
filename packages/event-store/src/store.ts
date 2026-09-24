@@ -1,4 +1,4 @@
-import { AgentIdSchema, redactPayload, uuidv7 } from '@chorus/shared'
+import { AgentIdSchema, redactPayload, uuidv7 } from '@mohammadtmohsen/shared'
 import { z } from 'zod'
 import {
   ChorusEventPayload,

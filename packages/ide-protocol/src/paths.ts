@@ -2,7 +2,7 @@
  * Path containment, on segments — the rule both ends of the bridge must agree
  * on, in the one package both ends already import.
  *
- * It used to live twice: `isWithin` in `@chorus/workspace` for Electron main,
+ * It used to live twice: `isWithin` in `@mohammadtmohsen/workspace` for Electron main,
  * and `isInside` in the extension's `editor-context.ts`. Their own comments said
  * they had to agree, and they did not — main used `path.sep` and the extension
  * hardcoded `/`, so on Windows main said a file was inside its project and the
@@ -10,7 +10,7 @@
  * every project reported `unmatched` and nothing ever reached main's copy to be
  * re-checked.
  *
- * That is why this is here rather than in `@chorus/workspace`: the extension
+ * That is why this is here rather than in `@mohammadtmohsen/workspace`: the extension
  * cannot import that package, because it pulls in `node:fs` and the extension
  * bundles for a VS Code host. `ide-protocol` is what they share, and "we agree
  * about what is inside the project" is as much a part of the protocol as the
@@ -114,7 +114,7 @@ export function platformForRoot(root: string, otherwise: Platform): Platform {
  * bundled for a browser, where evaluating that default throws `ReferenceError`
  * before the function body runs. Naming it at the call site costs one argument
  * and makes the Node-only assumption impossible to inherit by accident —
- * `@chorus/workspace`'s `path-safety.ts` is where a Node caller's default lives
+ * `@mohammadtmohsen/workspace`'s `path-safety.ts` is where a Node caller's default lives
  * now, because that package may assume Node and this one may not.
  */
 export function isInside(root: string, target: string, platform: Platform): boolean {

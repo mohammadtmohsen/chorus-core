@@ -12,9 +12,9 @@ import {
   type UsageWindow,
   type UserInputRequest,
   type UserInputResponse,
-} from '@chorus/agent-protocol'
-import type { ApprovalId } from '@chorus/shared'
-import type { AppendInput, ChorusEventPayload, EventStore } from '@chorus/event-store'
+} from '@mohammadtmohsen/agent-protocol'
+import type { ApprovalId } from '@mohammadtmohsen/shared'
+import type { AppendInput, ChorusEventPayload, EventStore } from '@mohammadtmohsen/event-store'
 import { DeltaBuffer, type Scheduler } from './delta-buffer.js'
 import { describeRequest, evaluate, SessionGrants } from './policy/engine.js'
 import { ApprovalQueue } from './policy/queue.js'

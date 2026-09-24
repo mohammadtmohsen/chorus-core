@@ -1,5 +1,5 @@
 import { createSdkMcpServer, tool } from '@anthropic-ai/claude-agent-sdk'
-import type { TranscriptReader } from '@chorus/agent-protocol'
+import type { TranscriptReader } from '@mohammadtmohsen/agent-protocol'
 import { z } from 'zod'
 
 const READ_SCHEMA = {

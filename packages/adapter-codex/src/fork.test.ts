@@ -1,4 +1,4 @@
-import type { ForkOpts } from '@chorus/agent-protocol'
+import type { ForkOpts } from '@mohammadtmohsen/agent-protocol'
 import { mkdtempSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'

@@ -4,14 +4,14 @@ The collaboration core shared by three products, so that a fix lands once instea
 
 | Package | What it owns |
 | --- | --- |
-| `@chorus/shared` | Ids, redaction, the types every other package imports |
-| `@chorus/agent-protocol` | The normalized `AgentEvent` union both providers project onto |
-| `@chorus/adapter-claude` | Claude SDK to `AgentEvent`, with the mapping kept pure |
-| `@chorus/adapter-codex` | codex app-server JSON-RPC to `AgentEvent` |
-| `@chorus/orchestrator` | Conversation service, policy engine, catch-up, supervisor |
-| `@chorus/event-store` | SQLite, migrations, projections, the projects registry |
-| `@chorus/workspace` | Path helpers and `parseDiff` |
-| `@chorus/ide-protocol` | The editor bridge contract |
+| `@mohammadtmohsen/shared` | Ids, redaction, the types every other package imports |
+| `@mohammadtmohsen/agent-protocol` | The normalized `AgentEvent` union both providers project onto |
+| `@mohammadtmohsen/adapter-claude` | Claude SDK to `AgentEvent`, with the mapping kept pure |
+| `@mohammadtmohsen/adapter-codex` | codex app-server JSON-RPC to `AgentEvent` |
+| `@mohammadtmohsen/orchestrator` | Conversation service, policy engine, catch-up, supervisor |
+| `@mohammadtmohsen/event-store` | SQLite, migrations, projections, the projects registry |
+| `@mohammadtmohsen/workspace` | Path helpers and `parseDiff` |
+| `@mohammadtmohsen/ide-protocol` | The editor bridge contract |
 
 ## Consuming it
 
@@ -19,14 +19,14 @@ Add the scope to `.npmrc`, with the token read from the environment so no creden
 written to a file:
 
 ```
-@chorus:registry=https://npm.pkg.github.com
+@mohammadtmohsen:registry=https://npm.pkg.github.com
 //npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
 ```
 
 Then depend on a version as usual:
 
 ```json
-{ "dependencies": { "@chorus/event-store": "^1.0.0" } }
+{ "dependencies": { "@mohammadtmohsen/event-store": "^1.0.0" } }
 ```
 
 ## Releasing

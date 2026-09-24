@@ -1,5 +1,5 @@
-import { collectEvents } from '@chorus/agent-protocol'
-import { AsyncQueue } from '@chorus/shared'
+import { collectEvents } from '@mohammadtmohsen/agent-protocol'
+import { AsyncQueue } from '@mohammadtmohsen/shared'
 import type { Options, Query } from '@anthropic-ai/claude-agent-sdk'
 import { mkdtempSync, readdirSync, readFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'

@@ -1,5 +1,5 @@
 {
-  "name": "@chorus/orchestrator",
+  "name": "@mohammadtmohsen/orchestrator",
   "version": "1.0.0",
   "private": false,
   "publishConfig": {
@@ -27,9 +27,9 @@
     "prepare": "tsc -b tsconfig.build.json"
   },
   "dependencies": {
-    "@chorus/agent-protocol": "workspace:*",
-    "@chorus/event-store": "workspace:*",
-    "@chorus/shared": "workspace:*",
+    "@mohammadtmohsen/agent-protocol": "workspace:*",
+    "@mohammadtmohsen/event-store": "workspace:*",
+    "@mohammadtmohsen/shared": "workspace:*",
     "zod": "^4.4.3"
   },
   "devDependencies": {

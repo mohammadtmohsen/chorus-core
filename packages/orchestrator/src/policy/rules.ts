@@ -1,4 +1,4 @@
-import type { ApprovalKind, ApprovalRequest } from '@chorus/agent-protocol'
+import type { ApprovalKind, ApprovalRequest } from '@mohammadtmohsen/agent-protocol'
 
 /**
  * Declarative permission rules.

@@ -1,5 +1,5 @@
 {
-  "name": "@chorus/adapter-codex",
+  "name": "@mohammadtmohsen/adapter-codex",
   "version": "1.0.0",
   "private": false,
   "publishConfig": {
@@ -27,8 +27,8 @@
     "prepare": "tsc -b tsconfig.build.json"
   },
   "dependencies": {
-    "@chorus/agent-protocol": "workspace:*",
-    "@chorus/shared": "workspace:*"
+    "@mohammadtmohsen/agent-protocol": "workspace:*",
+    "@mohammadtmohsen/shared": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^22.20.1"

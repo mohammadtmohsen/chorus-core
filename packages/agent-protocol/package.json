@@ -1,5 +1,5 @@
 {
-  "name": "@chorus/agent-protocol",
+  "name": "@mohammadtmohsen/agent-protocol",
   "version": "1.0.0",
   "private": false,
   "publishConfig": {
@@ -27,7 +27,7 @@
     "prepare": "tsc -b tsconfig.build.json"
   },
   "dependencies": {
-    "@chorus/shared": "workspace:*",
+    "@mohammadtmohsen/shared": "workspace:*",
     "zod": "^4.4.3"
   }
 }

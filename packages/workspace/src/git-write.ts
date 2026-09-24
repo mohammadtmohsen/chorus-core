@@ -1,6 +1,6 @@
 import { execFile } from 'node:child_process'
 import { promisify } from 'node:util'
-import { err, ok, type Result } from '@chorus/shared'
+import { err, ok, type Result } from '@mohammadtmohsen/shared'
 import { GitError, isSafeRef, type GitOptions } from './git.js'
 import { readStatus } from './git.js'
 

@@ -3,7 +3,7 @@ import {
   CONFORMANCE_OPTS,
   collectEvents,
   type ConformanceTarget,
-} from '@chorus/agent-protocol'
+} from '@mohammadtmohsen/agent-protocol'
 import { mkdtempSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'

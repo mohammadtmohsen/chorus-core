@@ -1,5 +1,5 @@
-import type { ApprovalDecision, ApprovalRequest } from '@chorus/agent-protocol'
-import type { ApprovalId } from '@chorus/shared'
+import type { ApprovalDecision, ApprovalRequest } from '@mohammadtmohsen/agent-protocol'
+import type { ApprovalId } from '@mohammadtmohsen/shared'
 import type { Scheduler } from '../delta-buffer.js'
 import { realScheduler } from '../delta-buffer.js'
 

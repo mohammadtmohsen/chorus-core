@@ -1,5 +1,5 @@
 {
-  "name": "@chorus/event-store",
+  "name": "@mohammadtmohsen/event-store",
   "version": "1.0.0",
   "private": false,
   "publishConfig": {
@@ -27,7 +27,7 @@
     "prepare": "tsc -b tsconfig.build.json"
   },
   "dependencies": {
-    "@chorus/shared": "workspace:*",
+    "@mohammadtmohsen/shared": "workspace:*",
     "better-sqlite3": "^13.0.2",
     "zod": "^4.4.3"
   },

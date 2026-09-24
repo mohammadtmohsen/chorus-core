@@ -1,4 +1,4 @@
-import type { ApprovalId, UserInputId } from '@chorus/shared'
+import type { ApprovalId, UserInputId } from '@mohammadtmohsen/shared'
 import { describe, expect, it } from 'vitest'
 import {
   mapContextUsage,

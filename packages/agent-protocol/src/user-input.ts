@@ -1,4 +1,4 @@
-import type { AgentId, UserInputId } from '@chorus/shared'
+import type { AgentId, UserInputId } from '@mohammadtmohsen/shared'
 
 /**
  * Structured questions an agent asks the user mid-turn (plan §4.2).
