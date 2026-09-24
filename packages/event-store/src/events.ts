@@ -27,6 +27,8 @@ export const ChorusEventPayload = z.discriminatedUnion('type', [
     type: z.literal('conversation.created'),
     projectId: z.string(),
     title: z.string(),
+    participants: z.array(AgentIdSchema).optional(),
+    profileId: z.string().optional(),
     /**
      * The conversation this one was started to continue, if any.
      *
