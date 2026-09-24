@@ -36,6 +36,8 @@ beforeEach(() => {
   }
   cwd = join(base, 'repo')
   execFileSync('git', ['init', '-b', 'main', cwd], { env, stdio: ['ignore', 'pipe', 'pipe'] })
+  at(cwd, 'config', 'user.email', 'fixture@example.invalid')
+  at(cwd, 'config', 'user.name', 'Fixture')
   mkdirSync(join(cwd, 'src'), { recursive: true })
   writeFileSync(join(cwd, 'src', 'kept.ts'), 'export const A = 1\n')
   at(cwd, 'add', '.')
