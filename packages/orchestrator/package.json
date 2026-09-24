@@ -1,0 +1,39 @@
+{
+  "name": "@chorus/orchestrator",
+  "version": "1.0.0",
+  "private": false,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
+  "description": "Domain core: conversation, handoff, policy, approvals. Zero Electron, zero adapters.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -b tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "clean": "node ../../scripts/rm.mjs dist *.tsbuildinfo",
+    "prepare": "tsc -b tsconfig.build.json"
+  },
+  "dependencies": {
+    "@chorus/agent-protocol": "workspace:*",
+    "@chorus/event-store": "workspace:*",
+    "@chorus/shared": "workspace:*",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.1",
+    "better-sqlite3": "^13.0.2"
+  }
+}
